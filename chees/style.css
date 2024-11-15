@@ -1,0 +1,47 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.chess
+{
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    border: 2px solid black;
+}
+.row
+{
+    height: 100px;
+    width: 800px;
+}
+.white
+{
+    height: 100px;
+    width: 100px;
+    background-color: blanchedalmond;
+    float: left;
+}
+.white p
+{
+    color:black;
+    font-size: 20px;
+    padding: 0px 40px;
+    font-weight: 20px;
+}
+.green
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    float: left;
+}
+.green p
+{
+    color:black;
+    font-size: 20px;
+    padding: 0px 40px;
+    font-weight: 20px;
+}
