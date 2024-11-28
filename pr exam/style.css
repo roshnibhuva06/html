@@ -1,0 +1,194 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box
+{
+    height: 80px;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.nav
+{
+    height: 80px;
+    width: 97%;
+    /* background-color: rgb(47, 108, 186); */
+    margin: auto;
+    font-size: 16px;
+}
+.nav h1
+{
+    position: absolute;
+    justify-content: start;
+    top: 3%;
+}
+.menu
+{
+   height: 95px;
+   width: 100%;
+   /* background-color: aqua; */
+}
+.menubar
+{
+    height: 80px;
+    width: 95%;
+    /* background-color: beige; */
+    margin: auto;
+}
+.menubar ul
+{
+    display: flex;
+    top: 18%;
+    position: relative;
+    right: 12px;
+}
+.menubar ul li
+{
+    list-style: none;
+    padding: 20px;
+    font-size: 18px;
+}
+li::after
+{
+    content:'';
+    display: block;
+    border-bottom: 2px solid black;
+    width:0%;
+    margin: auto;
+    transition: 0.7s;
+
+} 
+li:hover::after
+{
+    width: 95%;
+    margin-top: 5px;
+
+} 
+.pic
+{
+    height: 300px;
+    /* background-color: bisque; */
+    width: 96%;
+    margin: auto;
+}
+.p1
+{
+   width:20%;
+    background-color: aquamarine;
+    height: 300px;
+    position: absolute;
+}
+.p1 img
+{
+    height: 300px;
+    width: 100%;
+}
+.p2
+{
+    width:20%;
+    background-color: rgb(195, 97, 102);
+    height: 300px;  
+    position: absolute;
+    left: 23%;
+}
+.p2 img
+{
+    height: 300px;
+    width:100% ;
+}
+.p3
+{
+    width:20%;
+    background-color: rgb(63, 39, 119);
+    height: 300px;  
+    position: absolute;
+    left:44%;
+}
+.p3 img
+{
+    height: 300px;
+    width:100% ;
+
+}
+.p4
+{
+    width:20%;
+    background-color: rgb(198, 57, 149);
+    height: 300px;  
+    position: absolute;
+    left:65%;
+}
+.p4 img
+{
+    height: 300px;
+    width:100% ;
+}
+}
+.pic2
+{
+    height: 300px;
+    width: 96%;
+    /* background-color: antiquewhite; */
+    margin: auto;
+    top:20%;
+    position:relative;
+    
+}
+ .b1
+{
+   width:21%;
+    background-color: aquamarine;
+    height: 300px;
+    position: absolute;
+    
+} 
+.b1 img
+{
+    height: 300px;
+    width:100% ;
+
+}
+ .b2
+{
+    width:21%;
+    background-color: rgb(195, 97, 102);
+    height: 300px;  
+    position: absolute;
+    left: 22%;
+}
+.b2 img
+{
+    height: 300px;
+    width:100% ;
+
+}
+.b3
+{
+    width:21%;
+    background-color: rgb(63, 39, 119);
+    height: 300px;  
+    position: absolute;
+    left:44%;
+}
+.b3 img
+{
+    height: 300px;
+    width:100% ;
+
+}
+.b4
+{
+    width:21%;
+    background-color: rgb(198, 57, 149);
+    height: 300px;  
+    position: absolute;
+    left:66%;
+} 
+.b4 img
+{
+    height: 300px;
+    width:100% ;
+
+}
